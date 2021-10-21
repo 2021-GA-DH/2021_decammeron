@@ -1,0 +1,578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	
+	
+	
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Decameron Web | Texts</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" media="all" />
+	<script src="../js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<script src="../js/jquery.badBrowser.js" type="text/javascript"></script>
+	<script src="../js/text_navigation.js" type="text/javascript"></script>
+	<script src="../js/functions.js" type="text/javascript"></script>	
+	<script src="../js/lightbox/js/jquery.lightbox.min.js" type="text/javascript"></script>	
+</head>
+
+<body>
+<div id="container">
+	<div id="shadow_left"></div>
+	<div id="shadow_right"></div>
+	<div id="header">
+		<h1><a href="http://www.brown.edu/Departments/Italian_Studies/dweb/">Decameron Web</a></h1>
+		<div id="search_field"><script>
+  (function() {
+    var cx = '015482072865718470889:lh3mtsy_3vs';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only></div>
+	</div>
+	<div id="sidebar">
+		<ul>
+			<!-- Navigation -->
+			<li id="the_project"><a href="../the_project/">The Project</a></li>
+			<li id="boccaccio"><a href="../boccaccio/life1_en.php">Boccaccio</a></li>
+			<li id="texts"><a href="../texts/" class="selected">Texts</a></li>
+			<li id="brigata"><a href="../brigata/">Brigata</a></li>
+			<li id="plague"><a href="../plague/">Plague</a></li>
+			<li id="literature"><a href="../literature/">Literature</a></li>
+			<li id="history"><a href="../history/">History</a></li>
+			<li id="society"><a href="../society/">Society</a></li>
+			<li id="religion"><a href="../religion/">Religion</a></li>
+			<li id="arts"><a href="../arts/">Arts</a></li>
+			<li id="maps"><a href="../images/maps/maps.php">Maps</a></li>
+			<li id="themes_motifs"><a href="../themes_motifs/">Themes/Motifs</a></li>
+			<li id="bibliography"><a href="../bibliography/">Bibliography</a></li>
+			<li id="pedagogy"><a href="../pedagogy/">Pedagogy</a></li>
+			<li id="syllabus"><a href="../the_project/syllabus.php">Syllabus</a></li>
+			<!-- End -->
+		</ul>
+		
+
+		<div id="text_search">
+			<h3>Text Search:</h3>
+			<form method="get" action="../texts/search.php">
+			<fieldset>
+				<input type="text" id="search" name="q" size="15" />	
+				<fieldset>
+<input type="radio" name="type" checked="checked" value="word">Word</input>				</fieldset>
+			<input type="hidden" name="display" value="none">
+			<input type="hidden" name="work" value="Dec">
+			<input type="hidden" name="lang" value="eng">
+			</fieldset>
+				<button>Search</button>
+			</form>
+			<!-- <a href="#">Advanced Search</a> -->
+			<br />
+			<h3>Text Options:</h3><a href="DecShowText.php?myID=nov0406&lang=it">Go to Italian text</a><a href="#" id="toggle_labels"></a>		</div>
+
+</div>
+<div id="content_pane">
+
+<div id="text_functions">
+<form name="text_navigation">
+	<fieldset>
+	<select name="day">
+		<option value="proem">Proem.</option>
+		<option value="01">First Day</option>
+		<option value="02">Second Day</option>
+		<option value="03">Third Day</option>
+		<option value="04" selected="selected">Fourth Day</option>
+		<option value="05">Fifth Day</option>
+		<option value="06">Sixth Day</option>
+		<option value="07">Seventh Day</option>
+		<option value="08">Eighth Day</option>
+		<option value="09">Ninth Day</option>
+		<option value="10">Tenth Day</option>
+		<option value="epilogue">Author's Epilogue</option>		
+	</select>
+	
+	<select name="nov">
+		<option value="blank"></option>
+		<option value="intro">Introduction</option>
+		<option value="01">Novel I</option>
+		<option value="02">Novel II</option>
+		<option value="03">Novel III</option>
+		<option value="04">Novel IV</option>
+		<option value="05">Novel V</option>
+		<option value="06" selected="selected">Novel VI</option>
+		<option value="07">Novel VII</option>
+		<option value="08">Novel VIII</option>
+		<option value="09">Novel IX</option>
+		<option value="10">Novel X</option>
+		<option value="conclu">Conclusion</option>
+	</select>
+	<input type="button" value="Go" onclick="DecGenerateURL('eng')" />
+	</fieldset>
+</form>
+</div>
+<ul id="breadcrumbs">
+	<li>Main</li>
+	<li>Texts (English)</li>	
+</ul>
+<div id="text"><h2>Fourth Day
+				- 
+			Novel VI</h2><h3>[Voice: 
+			panfilo
+			]</h3><p><a name="001" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=001#001">[ 
+							001
+							]</a>
+						Andreuola loves Gabriotto: she tells him a dream that
+ she has had; he tells her a dream of his own, ana
+ dies suddenly in her arms. While she and her maia
+ are carrying his corpse to his house, they are taken
+ by the Signory. She tells how the matter stands, is
+ threatened with violence by the Podestà, but will not
+ brook it. Her father hears how she is bested; and,
+ her innocence being established, causes her to be set
+ at large; but she, being minded to tarry no longer in
+ the world, becomes a nun.</p><div>
+<h3>[Voice: 
+			author
+			]</h3>
+<p><a name="002" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=002#002">[ 
+							002
+							]</a>
+						Glad indeed were the ladies to have heard
+	Filomena's story, for
+	that, often though they had heard the song sung, they had never
+	yet, for all their enquiries, been able to learn the occasion upon
+	which it was made. When 'twas ended, Pamfilo received the
+	king's command to follow suit, and thus spoke:</p>
+</div><div>
+<h3>[Voice: 
+			panfilo
+			]</h3>
+<p><a name="003" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=003#003">[ 
+							003
+							]</a>
+						By the dream
+	told in the foregoing story I am prompted to relate one in which
+	two dreams are told, dreams of that which was to come, as Lisabetta's
+	was of that which had been, and which were both fulfilled
+	almost as soon as they were told by those that had dreamed them.
+	<a name="004" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=004#004">[ 
+							004
+							]</a>
+						Wherefore, loving ladies, you must know that 'tis the common
+	experience of mankind to have divers visions during sleep; and albeit
+	the sleeper, while he sleeps, deems all alike most true, but, being
+	awake, judges some of them to be true, others to be probable, and
+	others again to be quite devoid of truth, yet not a few are found to
+	have come to pass. <a name="005" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=005#005">[ 
+							005
+							]</a>
+						For which cause many are as sure of every
+	dream as of aught that they see in their waking hours, and so, as
+	their dreams engender in them fear or hope, are sorrowful or joyous.
+	And on the other hand there are those that credit no dream, until
+	they see themselves fallen into the very peril whereof they were
+	forewarned. Of whom I approve neither sort, for in sooth neither are
+	all dreams true, nor all alike false. <a name="006" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=006#006">[ 
+							006
+							]</a>
+						That they are not all true, there
+	is none of us but may many a time have proved; and that they are
+	not all alike false has already been shewn in Filomena's story, and
+	shall also, as I said before, be shewn in mine. <a name="007" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=007#007">[ 
+							007
+							]</a>
+						Wherefore I deem
+	that in a virtuous course of life and conduct there is no need to fear
+	aught by reason of any dream that is contrary thereto, or on that
+	account to give up any just design; and as for crooked and sinister
+	enterprises, however dreams may seem to favour them, and flatter
+	the hopes of the dreamer with auspicious omens, none should trust
+	them: rather should all give full credence to such as run counter
+	thereto. But come we to the story.</p>
+</div><h3>[Voice: 
+			panfilo
+			]</h3><p><a name="008" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=008#008">[ 
+							008
+							]</a>
+						In the city of Brescia there lived of yore a gentleman named
+ Messer Negro da Ponte Carraro, who with other children had a
+ very fair daughter, Andreuola by name, who, being unmarried,
+ chanced to fall in love with a neighbour, one Gabriotto, a man of
+ low degree, but goodly of person and debonair, and endowed with
+ all admirable qualities; <a name="009" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=009#009">[ 
+							009
+							]</a>
+						and aided and abetted by the housemaid, the
+ girl not only brought it to pass that Gabriotto knew that he was
+ beloved of her, but that many a time to their mutual delight he
+ came to see her in a fair garden belonging to her father. And that
+ nought but death might avail to sever them from this their gladsome
+ love, they became privily man and wife; and, while thus they
+ continued their clandestine intercourse, it happened that one night,
+ while the girl slept, she saw herself in a dream in her garden with
+ Gabriotto, who to the exceeding great delight of both held her in his
+ arms; <a name="010" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=010#010">[ 
+							010
+							]</a>
+						and while thus they lay, she saw issue from his body somewhat
+ dark and frightful, the shape whereof she might not discern;
+ which, as she thought, laid hold of Gabriotto, and in her despite
+ with prodigious force reft him from her embrace, and bore him with
+ it underground, so that both were lost to her sight for evermore:
+ <a name="011" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=011#011">[ 
+							011
+							]</a>
+						whereby stricken with sore and inexpressible grief, she awoke; and
+ albeit she was overjoyed to find that 'twas not as she had dreamed,
+ yet a haunting dread of what she had seen in her vision entered her
+ soul. Wherefore, Gabriotto being minded to visit her on the ensuing
+ night, she did her best endeavour to dissuade him from coming; but
+ seeing that he was bent upon it, lest he should suspect somewhat,
+ she received him in her garden, <a name="012" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=012#012">[ 
+							012
+							]</a>
+						where, having culled roses many,
+ white and red--for 'twas summer--she sat herself down with him
+ at the base of a most fair and lucent fountain. There long and
+ joyously they dallied, and then Gabriotto asked her wherefore she
+ had that day forbade his coming. Whereupon the lady told him
+ her dream of the night before, and the doubt and fear which it had
+ engendered in her mind. <a name="013" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=013#013">[ 
+							013
+							]</a>
+						Whereat Gabriotto laughed, and said that
+ 'twas the height of folly to put any faith in dreams, for that they
+ were occasioned by too much or too little food, and were daily seen
+ to be, one and all, things of nought, adding: 
+<a name="014" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=014#014">[ 
+							014
+							]</a>
+						
+			“ 
+		Were I minded to
+ give heed to dreams, I should not be here now, for I, too, had a
+ dream last night, which was on this wise: Methought I was in
+ a fair and pleasant wood, and there, a hunting, caught a she-goat as
+ beautiful and loveable as any that ever was seen, and, as it seemed to
+ me, whiter than snow, which in a little while grew so tame and
+ friendly that she never stirred from my side. 
+<a name="015" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=015#015">[ 
+							015
+							]</a>
+						All the same so jealous
+ was I lest she should leave me, that, meseemed, I had set a collar of
+ gold around her neck, and held her by a golden chain. 
+<a name="016" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=016#016">[ 
+							016
+							]</a>
+						And presently
+ meseemed that, while the she-goat lay at rest with her head in my
+ lap, there came forth, I knew not whence, a greyhound bitch, black
+ as coal, famished, and most fearsome to look upon; which made
+ straight for me, and for, meseemed, I offered no resistance, set her
+ muzzle to my breast on the left side and gnawed through to the
+ heart, which, meseemed, she tore out to carry away with her.
+ <a name="017" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=017#017">[ 
+							017
+							]</a>
+						Whereupon ensued so sore a pain that it brake my sleep, and as I
+ awoke I laid my hand to my side to feel if aught were amiss there;
+ but finding nothing I laughed at myself that I had searched. But
+ what signifies it all? Visions of the like sort, ay, and far more
+ appalling, have I had in plenty, and nought whatever, great or small,
+ has come of any of them. So let it pass, and think we how we may
+ speed the time merrily.
+			” 
+		</p><h3>[Voice: 
+			panfilo
+			]</h3><p><a name="018" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=018#018">[ 
+							018
+							]</a>
+						What she heard immensely enhanced the already great dread
+ which her own dream had inspired in the girl; but, not to vex
+ Gabriotto, she dissembled her terror as best she might. But, though
+ she made great cheer, embracing and kissing him, and receiving his
+ embraces and kisses, yet she felt a doubt, she knew not why, and
+ many a time, more than her wont, she would gaze upon his face,
+ and ever and anon her glance would stray through the garden to
+ see if any black creature were coming from any quarter. 
+<a name="019" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=019#019">[ 
+							019
+							]</a>
+						While
+ thus they passed the time, of a sudden Gabriotto heaved a great
+ sigh, and embracing her, said: 
+			“ 
+		Alas! my soul, thy succour! for
+ I die.
+			” 
+		 And so saying, he fell down upon the grassy mead. 
+<a name="020" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=020#020">[ 
+							020
+							]</a>
+						Whereupon
+ the girl drew him to her, and laid him on her lap, and all
+ but wept, and said: 
+			“ 
+		O sweet my lord, what is't that ails thee?
+			” 
+		<a name="021" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=021#021">[ 
+							021
+							]</a>
+						But Gabriotto was silent, and gasping sore for breath, and bathed
+ in sweat, in no long time departed this life.</p><h3>[Voice: 
+			panfilo
+			]</h3><p><a name="022" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=022#022">[ 
+							022
+							]</a>
+						How grievous was the distress of the girl, who loved him more
+ than herself, you, my ladies, may well imagine. With many a tear
+ she mourned him, and many times she vainly called him by his
+ name; but when, having felt his body all over, and found it cold in
+ every part, she could no longer doubt that he was dead, knowing not
+ what to say or do, she went, tearful and woebegone, to call the
+ maid, to whom she had confided her love, and shewed her the
+ woeful calamity that had befallen her. <a name="023" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=023#023">[ 
+							023
+							]</a>
+						Piteously a while they wept
+ together over the dead face of Gabriotto, and then the girl said to
+ the maid: 
+			“ 
+		Now that God has reft him from me, I have no
+ mind to linger in this life; but before I slay myself, I would we
+ might find apt means to preserve my honour, and the secret of our
+ love, and to bury the body from which the sweet soul has fled.
+			” 
+		<a name="024" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=024#024">[ 
+							024
+							]</a>
+						
+			“ 
+		My daughter,
+			” 
+		 said the maid, 
+			“ 
+		speak not of slaying thyself, for
+ so wouldst thou lose in the other world, also, him that thou hast
+ lost here; seeing that thou wouldst go to hell, whither, sure I am,
+ his soul is not gone, for a good youth he was; far better were it to
+ put on a cheerful courage, and bethink thee to succour his soul with
+ thy prayers or pious works, if perchance he have need thereof by
+ reason of any sin that he may have committed. 
+<a name="025" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=025#025">[ 
+							025
+							]</a>
+						We can bury him
+ readily enough in this garden, nor will any one ever know; for
+ none knows that he ever came hither; and if thou wilt not have
+ it so, we can bear him forth of the garden, and leave him there;
+ and on the morrow he will be found, and carried home, and buried
+ by his kinsfolk.
+			” 
+		<a name="026" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=026#026">[ 
+							026
+							]</a>
+						The girl, heavy-laden though she was with
+ anguish, and still weeping, yet gave ear to the counsels of her maid,
+ and rejecting the former alternative, made answer to the latter on
+ this wise: 
+			“ 
+		Now God forbid that a youth so dear, whom I have
+ so loved and made my husband, should with my consent be buried
+ like a dog, or left out there in the street. He has had my tears, and
+ so far as I may avail, he shall have the tears of his kinsfolk, and
+ already wot I what we must do.
+			” 
+		<a name="027" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=027#027">[ 
+							027
+							]</a>
+						And forthwith she sent the maid
+ for a piece of silken cloth, which she had in one of her boxes; and
+ when the maid returned with it, they spread it on the ground, and
+ laid Gabriotto's body thereon, resting the head upon a pillow. She
+ then closed the eyes and mouth, shedding the while many a tear,
+ wove for him a wreath of roses, and strewed upon him all the roses
+ that he and she had gathered; which done, she said to the maid:
+ <a name="028" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=028#028">[ 
+							028
+							]</a>
+						
+			“ 
+		'Tis but a short way hence to the door of his house; so thither we
+ will bear him, thou and I, thus as we have dight him, and will lay
+ him at the door. Day will soon dawn, and they will take him up;
+ and, though 'twill be no consolation to them, I, in whose arms he
+ died, shall be glad of it.
+			” 
+		<a name="029" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=029#029">[ 
+							029
+							]</a>
+						So saying, she burst once more into a
+ torrent of tears, and fell with her face upon the face of the dead, and
+ so long time she wept. Then, yielding at last to the urgency of her
+ maid, for day was drawing nigh, she arose, drew from her finger the
+ ring with which she had been wedded to Gabriotto, and set it on
+ his finger, saying with tears: 
+<a name="030" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=030#030">[ 
+							030
+							]</a>
+						
+			“ 
+		Dear my lord, if thy soul be witness
+ of my tears, or if, when the spirit is fled, aught of intelligence or
+ sense still lurk in the body, graciously receive the last gift of her
+ whom in life thou didst so dearly love.
+			” 
+		 Which said, she swooned,
+ and fell upon the corpse; 
+<a name="031" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=031#031">[ 
+							031
+							]</a>
+						but, coming after a while to herself, she
+ arose; and then she and her maid took the cloth whereon the body
+ lay, and so bearing it, quitted the garden, and bent their steps towards
+ the dead man's house. As thus they went, it chanced that certain
+ of the Podestà's guard, that for some reason or another were abroad
+ at that hour, met them, and arrested them with the corpse. 
+<a name="032" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=032#032">[ 
+							032
+							]</a>
+						Andreuola,
+ to whom death was more welcome than life, no sooner knew
+ them for the officers of the Signory than she frankly said: 
+			“ 
+		I know
+ you, who you are, and that flight would avail me nothing: I am
+ ready to come with you before the Signory, and to tell all there is to
+ tell; but let none of you presume to touch me, so long as I obey
+ you, or to take away aught that is on this body, if he would not that
+ I accuse him.
+			” 
+		 And so, none venturing to lay hand upon either her
+ person or the corpse, she entered the palace.</p><h3>[Voice: 
+			panfilo
+			]</h3><p><a name="033" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=033#033">[ 
+							033
+							]</a>
+						So soon as the Podestà was apprised of the affair, he arose,
+ had
+ her brought into his room, and there made himself conversant with
+ the circumstances: and certain physicians being charged to inquire
+ whether the good man had met his death by poison or otherwise, all
+ with one accord averred that 'twas not by poison, but that he was
+ choked by the bursting of an imposthume near the heart. 
+<a name="034" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=034#034">[ 
+							034
+							]</a>
+						Which
+ when the Podestà heard, perceiving that the girl's guilt could but
+ be slight, he sought to make a pretence of giving what it was not
+ lawful for him to sell her, and told her that he would set her at
+ liberty, so she were consenting to pleasure him; 
+<a name="035" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=035#035">[ 
+							035
+							]</a>
+						but finding that he
+ did but waste his words he cast aside all decency, and would have
+ used force. Whereupon Andreuola, kindling with scorn, waxed
+ exceeding brave, and defended herself with a virile energy, and with
+ high and contumelious words drove him from her.</p><h3>[Voice: 
+			panfilo
+			]</h3><p><a name="036" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=036#036">[ 
+							036
+							]</a>
+						When 'twas broad day, the affair reached the ears of Messer
+ Negro, who, half dead with grief, hied him with not a few of his
+ friends to the palace; where, having heard all that the Podestà had
+ to say, he required him peremptorily to give him back his daughter.
+ <a name="037" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=037#037">[ 
+							037
+							]</a>
+						The Podestà, being minded rather to be his own accuser, than that
+ he should be accused by the girl of the violence that he had meditated
+ towards her, began by praising her and her constancy, and in proof
+ thereof went on to tell what he had done; he ended by saying, that,
+ marking her admirable firmness, he had fallen mightily in love with
+ her, and so, notwithstanding she had been wedded to a man of low
+ degree, he would, if 'twere agreeable to her and to her father, Messer
+ Negro, gladly make her his wife. <a name="038" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=038#038">[ 
+							038
+							]</a>
+						While they thus spoke, Andreuola
+ made her appearance, and, weeping, threw herself at her father's feet,
+ saying: 
+			“ 
+		My father, I wot I need not tell you the story of my
+ presumption, and the calamity that has befallen me, for sure I am
+ that you have heard it and know it; wherefore, with all possible
+ humility I crave your pardon of my fault, to wit, that without your
+ knowledge I took for my husband him that pleased me best. 
+<a name="039" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=039#039">[ 
+							039
+							]</a>
+						And
+ this I crave, not that my life may be spared, but that I may die as
+ your daughter and not as your enemy;
+			” 
+		 and so, weeping, she fell at
+ his feet. 
+<a name="040" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=040#040">[ 
+							040
+							]</a>
+						Messer Negro, now an old man, and naturally kindly and
+ affectionate, heard her not without tears, and weeping raised her
+ tenderly to her feet, saying: 
+			“ 
+		Daughter mine, I had much liefer
+ had it that thou hadst had a husband that I deemed a match for thee;
+ and in that thou hadst taken one that pleased thee I too had been
+ pleased; but thy concealing thy choice from me is grievous to me
+ by reason of thy distrust of me, and yet more so, seeing that thou
+ hast lost him before I have known him. 
+<a name="041" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=041#041">[ 
+							041
+							]</a>
+						But as 'tis even so, to his
+ remains be paid the honour which, while he lived for thy contentment,
+ I had gladly done him as my son-in-law.
+			” 
+		 Then, turning to
+ his sons and kinsmen, he bade them order Gabriotto's obsequies with
+ all pomp and honourable circumstance.</p><h3>[Voice: 
+			panfilo
+			]</h3><p><a name="042" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=042#042">[ 
+							042
+							]</a>
+						Meanwhile the young man's kinsmen and kinswomen, having
+ heard the news, had flocked thither, bringing with them almost all the
+ rest of the folk, men and women alike, that were in the city. And so
+ his body, resting on Andreuola's cloth, and covered with her roses,
+ was laid out in the middle of the courtyard, and there was mourned
+ not by her and his kinsfolk alone, but publicly by well-nigh all the
+ women of the city, and not a few men; and shouldered by some of
+ the noblest of the citizens, as it had been the remains of no plebeian
+ but of a noble, was borne from the public courtyard to the tomb
+ with exceeding great pomp.</p><h3>[Voice: 
+			panfilo
+			]</h3><p><a name="043" href="DecShowText.php?myID=nov0406&amp;expand=&amp;lang=it&amp;highlight=043#043">[ 
+							043
+							]</a>
+						Some days afterwards, as the Podestà continued to urge his suit,
+ Messer Negro would have discussed the matter with his daughter;
+ but, as she would hear none of it, and he was minded in this matter
+ to defer to her wishes, she and her maid entered a religious house of
+ great repute for sanctity, where in just esteem they lived long time
+ thereafter.</p><a href="DecShowText.php?myID=nov0405&amp;expand=empty&amp;lang=eng" class="prev_link">← Previous</a><a href="DecShowText.php?myID=nov0407&amp;expand=empty&amp;lang=eng" class="next_link">Next →</a>
+</div></div>
+<div id="footer"><span id="bottominfo">The <strong>Decameron Web</strong> is a project of the <a href="http://www.brown.edu/Departments/Italian_Studies/">Italian Studies Department</a>'s <a href="http://www.brown.edu/Departments/Italian_Studies/vhl_new/">Virtual Humanities Lab</a> at <a href="http://www.brown.edu/">Brown University</a>.</span>
+
+<span id="last_modified">Page last updated: February 15, 2010</span></div>
+</div>
+</body>
+</html>
